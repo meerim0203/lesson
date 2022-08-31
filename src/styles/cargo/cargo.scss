@@ -1,0 +1,145 @@
+#cargo {
+  padding-top: 100px;
+
+  .cargo--general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__block {
+      width: 1170px;
+      height: 722px;
+      border: 5px solid #000AFF;
+      text-align: center;
+
+      h1 {
+        font-weight: 600;
+        font-size: 32px;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 30px;
+
+        span {
+          color: #000AFF;
+        }
+      }
+
+
+
+      p {
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+        color: #FF0000;
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.54);
+        margin-top: 50px;
+        span {
+          color: #000AFF;
+        }
+      }
+
+      &--line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        label {
+          input {
+            width: 606px;
+            padding: 0 0 20px 0;
+            border: none;
+            border-bottom: 1px solid black;
+            background-color: transparent;
+            outline: none;
+            text-align: center;
+            transition: 0.3s;
+            color: black;
+            font-size: 22px;
+            margin-bottom: 30px;
+
+          }
+        }
+
+        //div {
+        //  width: 606px;
+        //  height: 0;
+        //  border: 1px solid #FF0000;
+        //}
+
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 80px;
+
+
+        span {
+          color: #000AFF;
+        }
+
+      }
+
+      &--circle {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom:30px ;
+
+        label {
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            color: #000000;
+
+          }
+        }
+      }
+
+      &--desc {
+        input  {
+          width: 778px;
+          height: 64px;
+          border: 2px solid #000000;
+          border-radius: 11px;
+          font-weight: 400;
+          font-size: 18px;
+          color: rgba(0, 0, 0, 0.54);
+          padding: 0 20px;
+
+        }
+      }
+
+      &--btn {
+        padding-top: 40px;
+        button {
+          width: 381px;
+          height: 59px;
+          font-weight: 700;
+          font-size: 24px;
+          text-align: center;
+          color: #FFFFFF;
+          background: #000AFF;
+          border-radius: 14px;
+          transition: .4s;
+          &:hover {
+            color: #000AFF;
+            transform: scale(1.1);
+            border: 2px solid #000AFF ;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

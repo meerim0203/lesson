@@ -1,0 +1,217 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #hero .hero--general__porter {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero .hero--general__group h1 {
+    font-size: 33px;
+  }
+  #hero .hero--general__group ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .header--general__navigation--group__block {
+    width: 239px;
+    height: 43px;
+    padding: 0 7px;
+  }
+  #header .header--general__navigation--group__block div {
+    font-size: 14px;
+    padding: 0 1px;
+  }
+  #header .header--general__navigation--group__block a {
+    font-size: 15px;
+  }
+  #hero .hero--general {
+    flex-direction: column;
+  }
+  #hero .hero--general__porter {
+    width: 99%;
+  }
+  #hero .hero--general__porter {
+    position: relative;
+    padding-top: 25px;
+  }
+  #hero .hero--general__group h1 {
+    font-size: 39px;
+  }
+  #hero .hero--general__group ul li {
+    font-size: 20px;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  #header .header--general__navigation--group {
+    display: none;
+  }
+  #cargo .cargo--general__block {
+    width: 90%;
+  }
+  #cargo .cargo--general__block h1 {
+    width: 90%;
+    margin-left: 23px;
+  }
+  #cargo .cargo--general__block p {
+    width: 90%;
+    margin-left: 15px;
+  }
+  #cargo .cargo--general__block h4 {
+    width: 90%;
+    margin-left: 15px;
+  }
+  #cargo .cargo--general__block--desc input {
+    width: 90%;
+  }
+  #cargo .cargo--general__block--circle {
+    padding-left: 20px;
+  }
+  #cargo .cargo--general__block--line label input {
+    width: 516px;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  #header .header--general__navigation {
+    display: none;
+  }
+  #advent .advent--general {
+    flex-direction: column;
+  }
+  #advent .advent--general__title {
+    display: none;
+  }
+  #advent .advent--general__block {
+    margin: 20px;
+  }
+  #cargo .cargo--general__block h1 {
+    margin-left: 23px;
+  }
+  #cargo .cargo--general__block p {
+    margin-left: 19px;
+  }
+  #cargo .cargo--general__block h3 {
+    margin-left: 28px;
+  }
+  #cargo .cargo--general__block h4 {
+    margin-left: 23px;
+    padding-bottom: 10px;
+  }
+  #cargo .cargo--general__block--circle {
+    padding-left: 20px;
+    flex-direction: column;
+  }
+  #cargo .cargo--general__block h3 {
+    margin-top: 20px;
+  }
+  #learn .learn--general__desc {
+    flex-direction: column;
+  }
+  #footer .footer--general__content {
+    flex-direction: column;
+  }
+  #footer .footer--general__content h1 {
+    padding: 31px 0;
+  }
+  #cargo .cargo--general__block--line label input {
+    width: 350px;
+    font-size: 18px;
+    padding: 0 3px 0 0;
+    margin-bottom: 20px;
+  }
+  #cargo .cargo--general__block--circle {
+    margin-left: -40px;
+  }
+  #cargo .cargo--general__block--circle label p {
+    margin-left: 5px;
+  }
+  #cargo .cargo--general__block--btn {
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 451px) {
+
+  #cargo .cargo--general__block--line label input {
+    width: 276px;
+    padding: 0 0 0 0;
+}
+  #cargo .cargo--general__block--circle label p {
+    font-size: 12px;
+  }
+  #cargo .cargo--general__block--desc input {
+    height: 50px;
+    font-size: 12px;
+  }
+  #cargo .cargo--general__block--btn button {
+    width: 266px;
+    height: 51px;
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 375px) {
+  #hero .hero--general__group ul li {
+    margin-left: 18px;
+    font-size: 17px;
+  }
+  #advent .advent--two {
+    flex-direction: column;
+    padding-top: 4px;
+  }
+  #cargo .cargo--general__block--line label input {
+    width: 222px;
+   font-size: 15px;
+  }
+  #cargo .cargo--general__block--line label input {
+    width: 200px;
+  }
+  #cargo .cargo--general__block h4 {
+    margin-left: 9px;
+    font-size: 18px;
+  }
+  #cargo .cargo--general__block h1 {
+    margin-left: 14px;
+    font-size: 30px;
+  }
+  #cargo .cargo--general__block p {
+    margin-left: 11px;
+  }
+  #cargo .cargo--general__block--desc input {
+    height: 45px;
+  }
+  #cargo .cargo--general__block--btn button {
+    width: 203px;
+    height: 44px;
+    font-size: 18px;
+  }
+  #learn .learn--general p {
+    font-size: 18px;
+  }
+  #learn .learn--general h3 {
+
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+
+}
